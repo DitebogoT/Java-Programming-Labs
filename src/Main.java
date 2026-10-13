@@ -32,5 +32,7 @@ public class Main {
 
         EvenOddArray.EvenOddPrint();
 
+        ReverseArray.ReverseElements();
+
     }
 }
