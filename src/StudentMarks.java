@@ -3,11 +3,19 @@ public class StudentMarks {
 
     static void printMarks(){
         int[] studentMarks = {78, 62, 44, 81, 90};
+        int sum = 0;
+        double average;
 
         for (int i = 0; i < studentMarks.length; i++) {
+            sum += studentMarks[i];
             System.out.println(studentMarks[i]);
-            System.out.println();
+
         }
+        average = sum / studentMarks.length;
+        System.out.println("The total is: "+ sum);
+        System.out.println("The average of the student marks is: " + average);
+        System.out.println();
+
     }
 }
 //Store student marks
