@@ -1,4 +1,7 @@
+import java.util.Scanner;
+
 public class Main {
+
     public static void main(String[] args) {
         StudentDetails student = new StudentDetails();
         student.printStudents();
@@ -8,6 +11,9 @@ public class Main {
 
         TemperatureConverter tempCon = new TemperatureConverter();
         tempCon.getFahrenheit();
+
+        PassOrFail passOrFail = new PassOrFail();
+        passOrFail.getResult();
 
     }
 }

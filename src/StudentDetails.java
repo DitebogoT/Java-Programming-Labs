@@ -12,5 +12,6 @@ static void printStudents(){
         System.out.println("Age:" + student.age);
         System.out.println("Average Mark:" + student.average);
         System.out.println("Registered:" + student.Registration);
+    System.out.println();
     }
 }

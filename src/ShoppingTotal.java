@@ -7,5 +7,6 @@ public class ShoppingTotal {
     static void printCalculations(){
         ShoppingTotal shopping = new ShoppingTotal();
         System.out.println("Total cost:" + (shopping.quantity * shopping.unitPrice));
+        System.out.println();
     }
 }
