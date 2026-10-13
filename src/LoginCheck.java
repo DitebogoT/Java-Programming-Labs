@@ -7,8 +7,10 @@ public class LoginCheck {
         LoginCheck checker = new LoginCheck();
         if(checker.username.equals("Ditebogo04") && checker.password.equals("Gh3tt0Ang3L!")){
             System.out.println("Login successful");
+            System.out.println();
         }else {
             System.out.println("Invalid credentials");
+            System.out.println();
         }
     }
 }
