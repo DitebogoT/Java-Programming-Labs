@@ -4,8 +4,6 @@ int age = 20;
 boolean Registration = true;
 double average = 76.5;
 
-
-
 static void printStudents(){
     StudentDetails student = new StudentDetails();
         System.out.println("Student name:" + student.name);
