@@ -18,5 +18,8 @@ public class Main {
         GradeCalculator grade = new GradeCalculator();
         grade.getGrade();
 
+        NumberAnalysis analysis = new NumberAnalysis();
+        analysis.Analysis();
+
     }
 }
