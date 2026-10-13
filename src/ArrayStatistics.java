@@ -12,11 +12,16 @@ public class ArrayStatistics {
             if (n < min) {
                 min = n;
             }
+            if (n >= 50)
+            {
+
+            }
         }
 
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
         System.out.println("The number of elements are "+ arrayStatistics.length);
+        System.out.println();
     }
 
 }

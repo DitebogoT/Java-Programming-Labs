@@ -28,5 +28,7 @@ public class Main {
 
         ArrayStatistics.getMinMax();
 
+        ArraySearch.searchArray();
+
     }
 }
