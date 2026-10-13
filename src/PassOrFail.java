@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PassOrFail {
-    int Mark = 45;
+    int Mark = -45;
     boolean Result;
 
     static void getResult()
@@ -10,12 +10,15 @@ public class PassOrFail {
         PassOrFail passOrFail = new PassOrFail();
         if (passOrFail.Mark<0 || passOrFail.Mark>100){
             System.out.println("You've entered an invalid number, please try again.");
+            System.out.println();
         }
         else if (passOrFail.Mark >= 50){
             System.out.println("You have passed the test.");
+            System.out.println();
         }
         else if (passOrFail.Mark < 50){
             System.out.println("You have failed the test.");
+            System.out.println();
         }
 
     }

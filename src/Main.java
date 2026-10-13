@@ -15,5 +15,8 @@ public class Main {
         PassOrFail passOrFail = new PassOrFail();
         passOrFail.getResult();
 
+        GradeCalculator grade = new GradeCalculator();
+        grade.getGrade();
+
     }
 }
