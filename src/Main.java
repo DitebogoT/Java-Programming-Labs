@@ -21,5 +21,8 @@ public class Main {
         NumberAnalysis analysis = new NumberAnalysis();
         analysis.Analysis();
 
+        LoginCheck checker = new LoginCheck();
+        checker.Check();
+
     }
 }
