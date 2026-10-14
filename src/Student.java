@@ -5,25 +5,26 @@ public class Student {
     double studentMark;
 
     //Constructor
-    public StudentInfo(String StudentName,String StudentNumber,double StudentMark){
-        studentName = StudentName;
-        studentNumber = StudentNumber;
-        studentMark = StudentMark;
+    public Student(String StudentName,String StudentNumber,double StudentMark){
+        this.studentName = StudentName;
+        this.studentNumber = StudentNumber;
+        this.studentMark = StudentMark;
     }
-    static void displayDetails()
+    void displayDetails()
     {
-        StudentInfo studentDetails = new StudentInfo("Ditebogo","221393439",33);
 
-        System.out.println("The student name is:" + studentDetails.Name);
-        System.out.println("The students student number is:" + studentDetails.studentNumber);
-        System.out.println("The students mark is:" + studentDetails.Mark);
+        System.out.println("Student name: " + this.studentName);
+        System.out.println("Student number:" + this.studentNumber);
+        System.out.println("Students mark:" + this.studentMark);
     }
-    static void hasPassed(){
-        Student student = new Student();
+    void hasPassed(){
 
-        if (student.Mark >= 50)
+        if (this.studentMark >= 50)
         {
-            System.out.println("You have passed");
+            System.out.println("Student has passed");
+        }
+        else{
+            System.out.println("Student hasn't passed");
         }
     }
 }

@@ -34,5 +34,9 @@ public class Main {
 
         ReverseArray.ReverseElements();
 
+        Student studentDetails = new Student("Ditebogo","221393439",89);
+        studentDetails.displayDetails();
+        studentDetails.hasPassed();
+
     }
 }
