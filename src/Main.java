@@ -52,6 +52,7 @@ public class Main {
         {
             cars[i].Display();
         }
+        System.out.println();
 
         Product prod = new Product(95,"Marie Biscuits",45.00,5);
         Product prod2 = new Product(75,"Nivea Lotion",85.00,8);
@@ -63,6 +64,18 @@ public class Main {
             prods[i].displayDetails();
             prods[i].stockValue();
         }
+        System.out.println();
+
+        Rectangle rect = new Rectangle(56,87);
+        Rectangle rect1 = new Rectangle(13,27);
+
+        Rectangle[] shapes = {rect,rect1};
+        for (int i = 0; i < shapes.length; i++)
+        {
+            shapes[i].Area();
+            shapes[i].Perimeter();
+        }
+        System.out.println();
 
 
     }

@@ -13,6 +13,6 @@ public class Car {
 
     void Display(){
         System.out.println(this.color+ " " + this.brand + " " + this.model +" "+ this.year);
-        System.out.println();
+
     }
 }
