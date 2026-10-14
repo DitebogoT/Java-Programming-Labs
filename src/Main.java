@@ -53,5 +53,17 @@ public class Main {
             cars[i].Display();
         }
 
+        Product prod = new Product(95,"Marie Biscuits",45.00,5);
+        Product prod2 = new Product(75,"Nivea Lotion",85.00,8);
+        Product prod3 = new Product(45,"Colgate",25.00,6);
+
+        Product[] prods = {prod,prod2,prod3};
+        for (int i = 0; i < prods.length; i++)
+        {
+            prods[i].displayDetails();
+            prods[i].stockValue();
+        }
+
+
     }
 }
