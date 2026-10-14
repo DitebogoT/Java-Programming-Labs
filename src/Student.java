@@ -16,15 +16,18 @@ public class Student {
         System.out.println("Student name: " + this.studentName);
         System.out.println("Student number:" + this.studentNumber);
         System.out.println("Students mark:" + this.studentMark);
+        System.out.println();
     }
     void hasPassed(){
 
         if (this.studentMark >= 50)
         {
             System.out.println("Student has passed");
+            System.out.println();
         }
         else{
             System.out.println("Student hasn't passed");
+            System.out.println();
         }
     }
 }
