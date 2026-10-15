@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class Main {
@@ -76,6 +77,39 @@ public class Main {
             shapes[i].Perimeter();
         }
         System.out.println();
+
+        Student_ student1 = new Student_("Magwaza","221393439",new int[]{56,87,98});
+        Student_ student2 = new Student_("Rodney","221233449",new int[]{5,80,72});
+        Student_ student3 = new Student_("ChilliBite","211395439",new int[]{43,65,78});
+
+        Student_[] studentS = {student1,student2,student3};
+
+        String res = "" ;
+
+        for (Student_ st : studentS)
+        {
+
+            st.setAvg(st.Average());
+
+            res += "\n" + "Student " + st.studentName + " Avg " + st.Average() + " " + st.hasPassed();
+
+        }
+
+        System.out.println(res);
+
+        double max = studentS[0].avg;
+        Student_ st = null;
+
+        for (int i = 0; i < studentS.length; i++)
+        {
+            if ( max <= studentS[i].avg )
+            {
+
+                max = studentS[i].avg;
+                st = studentS[i];
+            }
+        }
+        System.out.println(st.toString());
 
 
     }
